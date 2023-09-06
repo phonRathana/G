@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <base target="_top">
+    <title>HTML Templating demo</title>
+    <style>
+      body {
+        margin: 10px;
+      }
+
+      #btn {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      #github_img {
+        height: 300px;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Applicants</h1>
+    <form>
+      <p><em>Select an applicant from the list to see their details</em></p>
+      <select id="select">
+      <option disabled selected value> -- select -- </option>
+      </select>
+      &nbsp;<a id="btn">Display</a>
+    </form>
+    <hr>
+    <p><strong>Name:</strong> <span id ="devName">-</span></p>
+    <p><strong>GitHub:</strong> <span id="devGithub">-</span></p>
+    <p><strong>Role:</strong> <span id="devRole">-</span></p>
+    <p><strong>Favourite programming language:</strong> <span id="devLanguage">-</span></p>
+
+    <p><strong>GitHub avatar</strong></p>
+    <img id="github_img" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png">
+    <footer><a href="https://github.com/emilyb7/html-templating-with-google-apps-script" target="blank">About this page</a></footer>
+  </body>
+</html>
